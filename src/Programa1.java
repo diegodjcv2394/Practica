@@ -133,7 +133,7 @@ public class Programa1 extends javax.swing.JFrame {
             DateFormat hourdateFormat = new SimpleDateFormat("HH:mm:ss dd/MM/yyyy");
             System.out.println("Hora y fecha:  " + hourdateFormat.format(date)); 
         
-            
+         System.out.println("PRUEBA DE GITHUB");   
             
     }//GEN-LAST:event_jButton1ActionPerformed
 
