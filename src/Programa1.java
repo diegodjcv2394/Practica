@@ -8,6 +8,7 @@
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -118,7 +119,7 @@ public class Programa1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
+     JOptionPane.showMessageDialog(null,"agregado a la tabla",null, JOptionPane.INFORMATION_MESSAGE);
         if(validar(jTextField1.getText()).equals("ERROR"))
         {
             
